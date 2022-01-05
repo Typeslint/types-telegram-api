@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "ES6",
+      "outDir": "dist",
+      "lib": [
+          "ES6",
+          "dom" // Required for console.log()
+      ],
+      "allowJs": true,
+      "noImplicitAny": false,
+      "noImplicitThis": true,
+      "alwaysStrict": true,
+      "sourceMap": false,
+      "inlineSourceMap": true,
+      "inlineSources": true,
+      "strictNullChecks": true, 
+      "strictFunctionTypes": true,
+      "strictBindCallApply": true,
+      "resolveJsonModule": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "./",
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
